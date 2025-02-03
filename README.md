@@ -1,6 +1,7 @@
 # GPT4LFS: generative pre-trained transformer 4 omni for lumbar foramina stenosis
 
 Welcome to the official PyTorch implementation of our groundbreaking research paper: 
+
 **GPT4LFS (generative pre-trained transformer 4 omni for lumbar foramina stenosis): enhancing lumbar foraminal stenosis image classification through large multimodal models**
 
 ## Directory Structure
