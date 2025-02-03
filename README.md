@@ -55,4 +55,4 @@ pip install -r requirements.txt
 
 ## References
 
-- [PyTorch](https://pytorch.org/)
+[PyTorch](https://pytorch.org/)
