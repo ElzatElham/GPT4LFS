@@ -1,8 +1,10 @@
-# GPT4LFS
+# GPT4LFS: generative pre-trained transformer 4 omni for lumbar foramina stenosis
 
-> A multi-modal deep learning classification project.
+> Welcome to the official PyTorch implementation of our groundbreaking research paper: 
 
-## 目录结构
+**A multi-modal deep learning classification project.GPT4LFS (generative pre-trained transformer 4 omni for lumbar foramina stenosis): enhancing lumbar foraminal stenosis image classification through large multimodal models**
+
+## Directory Structure
 
 ```plaintext
 your-project/
@@ -26,7 +28,7 @@ your-project/
 └── .gitignore
 ```
 
-## 安装
+## Installation
 
 Clone the repository and install the required packages with:
 
@@ -34,27 +36,21 @@ Clone the repository and install the required packages with:
 pip install -r requirements.txt
 ```
 
-## 使用方法
+## Usage
 
-### 1. 数据准备
-- 将原始数据放置在 `data/raw/` 目录下。
-- 运行数据准备脚本：
+### 1. Data Preparation
+- Place raw data in the `data/raw/` directory.
+- Run the data preparation script:
   ```bash
   python src/data_preparation.py
   ```
-- 处理后的数据将保存在 `data/processed/` 目录下。
-- 如果需要调用GPT4o生成标注数据，请参考 `src/api.py`。
+- The processed data will be saved in the `data/processed/` directory.
+- If you need to call GPT4o to generate labeled data, please refer to `src/api.py`.
 
-### 2. 训练模型
-- 运行训练脚本：
+### 2. Training the Model
+- Run the training script:
   ```bash
   python src/train.py
   ```
-- 训练结果和日志将保存在 `outputs/` 目录下。
-
-## 参考文献
-
-- [PyTorch](https://pytorch.org/)
-
-
+- Training results and logs will be saved in the `outputs/` directory.
 
